@@ -1,0 +1,7 @@
+.main-visual img {
+    width: 100%;
+    max-width: 1400px;    
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
