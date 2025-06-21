@@ -1,0 +1,103 @@
+body {
+  background: #f6fafc;       
+  font-family: 'Yu Gothic', 'Meiryo', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;          
+}
+
+h1 {
+  text-align: center;
+  color: #2b518a;            
+  margin-top: 20px;
+  font-size: 2.5em;
+  letter-spacing: 0.07em;
+}
+
+h2 {
+  color: #487aab;            
+  border-left: 5px solid #487aab;
+  padding-left: 13px;
+  margin-top: 0;
+  font-size: 1.3em;
+  background: #edf6fd;
+  border-radius: 4px;
+}
+
+h3 {
+  color: #81b366;            
+  font-size: 1.1em;
+  margin-bottom: 2px;
+}
+
+.section {
+  background: #fff;
+  max-width: 720px;
+  margin: 30px auto 0 auto;
+  padding: 28px 18px 22px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(40,66,118,0.08);
+}
+
+.section p {
+  line-height: 1.8;
+  font-size: 1em;
+  margin: 13px 0;
+}
+.main-visual {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main-visual img {
+  width: 100%;
+  height: 300px;         
+  object-fit: cover;
+  display: block;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 16px rgba(40,66,118,0.09);
+  margin-bottom: 0;
+}
+
+.main-visual p {
+  text-align: center;
+  font-size: 1.15em;
+  margin: 20px 0 0 0;
+  color: #375278;
+}
+
+.section img {
+  width: 90%;             
+  max-width: 350px;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  margin: 16px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(40,66,118,0.06);
+}
+
+
+.section img[alt*="地図"] {
+  width: 95%;
+  max-width: 480px;
+  height: 140px;
+}
+
+
+@media (max-width: 600px) {
+  .section, .main-visual {
+    padding: 9px;
+    max-width: 98vw;
+  }
+  .main-visual img {
+    height: 160px;
+    border-radius: 0 0 8px 8px;
+  }
+  .section img {
+    height: 95px;
+    border-radius: 5px;
+  }
+  h1 { font-size: 1.3em; }
+}
