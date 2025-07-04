@@ -2,19 +2,13 @@
 
 body {
   margin: 0;
-  font-family: var(--font-main);
   font-size: 1.1em;
   line-height: 1.5;
-  color: var(--color-text);
-  background-color: var(--color-bg-light);
   background-image: url("https://img.freepik.com/free-photo/soccer-ball-green-grass_1232-3031.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-
-
-
 .content {
   max-width: 900px;
   margin: 4em auto;
