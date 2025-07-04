@@ -1,10 +1,4 @@
-:root {
-  --color-bg-light: #ddf1f1;
-  --color-text: #181616;
-  --color-primary: #0cea73;
-  --color-accent: #1b2dce;
-  --font-main: "Yu Gothic", Meiryo, sans-serif;
-}
+
 
 body {
   margin: 0;
@@ -19,22 +13,7 @@ body {
   background-attachment: fixed;
 }
 
-h1, h2 {
-  text-align: center;
-  color: #243a54;
-  text-shadow: 1px 1px 2px rgba(100, 100, 100, 0.1);
-}
 
-h1 {
-  font-size: 2.2em;
-  margin-top: 4em;
-  margin-bottom: 1.5em;
-}
-
-h2 {
-  font-size: 1.6em;
-  margin-bottom: 1em;
-}
 
 .content {
   max-width: 900px;
