@@ -2,27 +2,10 @@
   --color-bg-light: #ddf1f1;
   --color-text: #181616;
   --color-primary: #0cea73;
-  --color-primary-dark: #0aea6b;
   --color-accent: #1b2dce;
-  --color-accent-dark: #222d73;
-  --color-panel-bg: rgba(255,255,255,0.8);
-  --font-main: "utukushi mintyoutai", "Yu Gothic", Meiryo, sans-serif;
+  --font-main: "Yu Gothic", Meiryo, sans-serif;
 }
 
-@font-face {
-  font-family: "utukushi mintyoutai";
-  src: url("../font/UtsukushiFONT.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
 body {
   margin: 0;
   font-family: var(--font-main);
@@ -35,106 +18,30 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.d-flex       { display: flex; }
-.flex-wrap    { flex-wrap: wrap; }
-.justify-center { justify-content: center; }
-.align-center   { align-items: center; }
-.gap-10       { gap: 10px; }
-.gap-20       { gap: 20px; }
-———————————————————*/
-.URL {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  padding: 0.8em 2em;
-  background-color: rgba(11,175,87,0.9);
-  display: flex;
-  align-items: center;
-  z-index: 100;
-}
-.URL2 {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-left: 2.5em;
-}
-.URL2 a {
-  padding: 0.6em 1.2em;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.15s;
-}
-.URL2 a:hover {
-  background-color: var(--color-primary-dark);
-}
-
-#scrollToTopBtn {
-  position: fixed;
-  bottom: 1.5em;
-  right: 1.5em;
-  padding: 0.8em 1.2em;
-  background-color: var(--color-accent);
-  color: #fff;
-  font-weight: bold;
-  font-size: 1em;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(46,46,46,0.2);
-  transition: background 0.1s;
-  z-index: 100;
-}
-#scrollToTopBtn:hover {
-  background-color: var(--color-accent-dark);
-}
-
 
 h1, h2 {
   text-align: center;
-  margin: 0 auto 1.5em;
   color: #243a54;
-  text-shadow: 1px 1px 2px rgba(100,100,100,0.08);
+  text-shadow: 1px 1px 2px rgba(100, 100, 100, 0.1);
 }
+
 h1 {
   font-size: 2.2em;
-  margin-top: 4.5em; /* ヘッダー分 */
+  margin-top: 4em;
+  margin-bottom: 1.5em;
 }
+
 h2 {
-  font-size: 1.7em;
-  text-shadow: 1px 1px 4px #bbb;
+  font-size: 1.6em;
+  margin-bottom: 1em;
 }
+
 .content {
   max-width: 900px;
-  margin: 4em auto 2em;
-  padding: 1.8em 1em;
-  background-color: var(--color-panel-bg);
+  margin: 4em auto;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
-  box-shadow: 0 2px 12px rgba(60,70,90,0.04);
+  box-shadow: 0 2px 8px rgba(60, 70, 90, 0.1);
   text-align: center;
-}
-
-
-.home1, .home2, .home3,
-.ongaku, .straight1, .straight2 {
-  background-color: rgba(255,255,255,0.7);
-  padding: 1.2em 1em;
-  margin: 1.5em 0.5em;
-  border-radius: 8px;
-  text-shadow: 1px 1px 2px #bbb;
-}
-
-@media (max-width: 768px) {
-  .URL2 {
-    justify-content: center;
-    margin-left: 0;
-  }
-  .URL2 a {
-    flex: 1 1 45%;
-    text-align: center;
-  }
-  .content {
-    margin: 3em 0 1em;
-  }
 }
